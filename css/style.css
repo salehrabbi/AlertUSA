@@ -87,6 +87,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     min-height: 500px; }
+    .header .youtube-video iframe {
+      background: #000; }
 
 /*======================= Patner ====================*/
 .patner {
