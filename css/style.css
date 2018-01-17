@@ -1,0 +1,209 @@
+/*======================= Global Code ====================*/
+body {
+  font-family: "Droid Sans";
+  font-size: 16px;
+  color: #2a2a2a;
+  line-height: 1.375; }
+
+.space-top {
+  padding-top: 40px; }
+
+.space-bottom {
+  padding-bottom: 50px; }
+
+.img-responsive {
+  display: initial; }
+
+.container {
+  max-width: 830px; }
+
+hr {
+  border-top: 2px solid #d5d5d5;
+  width: 70%;
+  margin: 30px auto; }
+
+.title h2 {
+  font-size: 36px;
+  line-height: 1.05;
+  color: #2a2a2a;
+  text-align: center;
+  margin: 0; }
+  .title h2:after {
+    content: "";
+    display: block;
+    border-top: 2px solid #d5d5d5;
+    width: 70%;
+    margin: 25px auto; }
+.title p {
+  text-align: center;
+  font-weight: 700; }
+
+section {
+  background: #DFE4E7; }
+
+p {
+  margin: 0; }
+
+a,
+a:link {
+  color: #64b0be;
+  text-decoration: none; }
+
+a:hover {
+  color: #0696b0;
+  text-decoration: none; }
+
+.font-weight-bold {
+  font-weight: 700; }
+
+.static {
+  position: static; }
+
+.relative {
+  position: relative; }
+
+.width-100 {
+  width: 100%; }
+
+/*======================= Main Header ====================*/
+.header {
+  background: url(../images/1404016055.jpg) fixed;
+  background-size: cover; }
+  .header .youtube-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px; }
+
+/*======================= Patner ====================*/
+.patner {
+  background: #F9F9F9; }
+  .patner .container {
+    max-width: 960px; }
+  .patner .patner-pic {
+    padding: 18px 0; }
+  .patner .menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+    position: absolute;
+    right: 5%;
+    top: 42%; }
+    .patner .menu a {
+      color: #64b0be;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none; }
+
+/*======================= description ====================*/
+.description {
+  background: #DFE4E7;
+  padding-bottom: 27px; }
+  .description .details {
+    text-align: justify; }
+
+.logo h1 {
+  margin: 0;
+  color: #2a2a2a;
+  font-size: 36px;
+  line-height: 1.05;
+  padding-top: 15px;
+  padding-bottom: 45px; }
+
+.order h4 {
+  color: #0531e1;
+  font-size: 32px;
+  line-height: 1.1875;
+  margin: 10px 0;
+  margin-bottom: 0; }
+.order img {
+  display: block;
+  margin: 0 auto; }
+.order .download-here {
+  margin-bottom: 15px; }
+
+/*======================= service section ====================*/
+.all-service {
+  padding: 30px 0 0 0; }
+
+.service-list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+/*=========================== monitored-include ======================*/
+.monitored-include .title h2:after {
+  margin-bottom: 30px; }
+.monitored-include .list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-weight: 700; }
+
+/*=========================== supported ======================*/
+.supported .computer-pic {
+  padding-top: 10px;
+  padding-bottom: 15px; }
+
+/*=========================== feedback ======================*/
+.feedback blockquote {
+  padding: 0;
+  padding-left: 20px;
+  border-color: white;
+  margin-bottom: 40px; }
+  .feedback blockquote p {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 23px; }
+  .feedback blockquote footer {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    color: #2a2a2a; }
+    .feedback blockquote footer:before {
+      content: '- '; }
+
+/*=========================== guarantee ======================*/
+.guarantee {
+  padding-top: 20px; }
+  .guarantee .order h4 {
+    margin-top: 20px; }
+  .guarantee .order .download-here {
+    margin-bottom: 15px; }
+  .guarantee .order .payment-method {
+    margin-bottom: 55px; }
+
+/*=========================== patner-footer ======================*/
+.patner-footer .container {
+  max-width: 960px; }
+.patner-footer .patner-pic {
+  padding: 10px 0; }
+  .patner-footer .patner-pic img {
+    width: 100%; }
+
+/*=========================== main-footer ======================*/
+.main-footer {
+  background: url(../images/footerbg.jpg) repeat;
+  padding: 35px 0;
+  padding-bottom: 55px; }
+  .main-footer .copy {
+    color: #d5d5d5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300; }
+  .main-footer .footer-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .main-footer .footer-menu li {
+      display: inline-block;
+      padding: 0 5px;
+      border-right: 1px solid #d5d5d5;
+      line-height: 1; }
+      .main-footer .footer-menu li a {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300; }
+      .main-footer .footer-menu li:last-child {
+        border: 0; }
+
+/*# sourceMappingURL=style.css.map */
