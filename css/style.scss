@@ -1,19 +1,22 @@
 $f: 'Droid Sans';
 /*======================= Global Code ====================*/
+
 @font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Sans Regular'), local('DroidSans-Regular'), url(../fonts/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Sans Regular'), local('DroidSans-Regular'), url(../fonts/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
+
 /* latin */
+
 @font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(../fonts/EFpQQyG9GqCrobXxL-KRMYWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(../fonts/EFpQQyG9GqCrobXxL-KRMYWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
 
 
@@ -113,8 +116,10 @@ a:hover {
         justify-content: center;
         align-items: center;
         min-height: 500px;
-        iframe{
+        iframe {
             background: #000;
+            width: 640px;
+            height: 360px;
         }
     }
 }
@@ -307,5 +312,134 @@ a:hover {
                 border: 0;
             }
         }
+    }
+}
+
+/*=========================== privacyr ======================*/
+
+#other-pages {
+
+    .header {
+        min-height: 200px;
+    }
+    .title h2 {
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 20px;
+        &:after {
+            margin: 20px auto;
+            margin-bottom: 40px;
+        }
+    }
+    .description {
+        padding-bottom: 37px
+    }
+    h3 {
+        margin-top: 23px;
+        margin-bottom: 13px;
+        font-weight: 700;
+    }
+    .founder {
+        padding-bottom: 45px;
+    }
+    .img-left {
+        width: 28%;
+        float: left;
+        img {
+            margin-bottom: 7px;
+        }
+        p {
+            font-weight: 700;
+        }
+    }
+    .text {
+        width: 72%;
+        float: left;
+    }
+}
+
+@media (max-width:991px) {
+    .patner .menu a {
+        display: none;
+    }
+    #other-pages .img-left {
+        width: 30%;
+    }
+    #other-pages .text {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo h1 {
+        font-size: 29px;
+    }
+    .service-list,
+    .monitored-include .list {
+        font-size: 14px;
+    }
+    .header .youtube-video iframe {
+        height: 293px;
+    }
+    #other-pages .img-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #other-pages .text {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:575px) {
+
+    .service-list,
+    .monitored-include .list {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .all-service .col-md-4:first-child .service-list {
+        margin-top: 0;
+    }
+    .mobile {
+        text-align: center;
+    }
+    .header .youtube-video iframe {
+        height: 220px;
+        width: 391px;
+    }
+    .header .youtube-video {
+        min-height: 350px;
+    }
+    #other-pages .header {
+        min-height: 100px;
+    }
+}
+
+@media (max-width:420px) {
+    .service-list,
+    .monitored-include .list,
+    .feedback blockquote p,
+    .feedback blockquote footer {
+        font-size: 14px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .title h2 {
+        font-size: 25px;
+    }
+    .logo h1 {
+        font-size: 23px;
+        br {
+            display: none;
+        }
+    }
+    .header .youtube-video iframe {
+        height: 150px;
+        width: 267px;
     }
 }

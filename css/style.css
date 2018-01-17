@@ -88,7 +88,9 @@ a:hover {
     align-items: center;
     min-height: 500px; }
     .header .youtube-video iframe {
-      background: #000; }
+      background: #000;
+      width: 640px;
+      height: 360px; }
 
 /*======================= Patner ====================*/
 .patner {
@@ -220,5 +222,106 @@ a:hover {
         font-weight: 300; }
       .main-footer .footer-menu li:last-child {
         border: 0; }
+
+/*=========================== privacyr ======================*/
+#other-pages .header {
+  min-height: 200px; }
+#other-pages .title h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px; }
+  #other-pages .title h2:after {
+    margin: 20px auto;
+    margin-bottom: 40px; }
+#other-pages .description {
+  padding-bottom: 37px; }
+#other-pages h3 {
+  margin-top: 23px;
+  margin-bottom: 13px;
+  font-weight: 700; }
+#other-pages .founder {
+  padding-bottom: 45px; }
+#other-pages .img-left {
+  width: 28%;
+  float: left; }
+  #other-pages .img-left img {
+    margin-bottom: 7px; }
+  #other-pages .img-left p {
+    font-weight: 700; }
+#other-pages .text {
+  width: 72%;
+  float: left; }
+
+@media (max-width: 991px) {
+  .patner .menu a {
+    display: none; }
+
+  #other-pages .img-left {
+    width: 30%; }
+
+  #other-pages .text {
+    width: 70%; } }
+@media (max-width: 767px) {
+  .logo h1 {
+    font-size: 29px; }
+
+  .service-list,
+  .monitored-include .list {
+    font-size: 14px; }
+
+  .header .youtube-video iframe {
+    height: 293px; }
+
+  #other-pages .img-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; }
+
+  #other-pages .text {
+    width: 100%; } }
+@media (max-width: 575px) {
+  .service-list,
+  .monitored-include .list {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px; }
+
+  .all-service .col-md-4:first-child .service-list {
+    margin-top: 0; }
+
+  .mobile {
+    text-align: center; }
+
+  .header .youtube-video iframe {
+    height: 220px;
+    width: 391px; }
+
+  .header .youtube-video {
+    min-height: 350px; }
+
+  #other-pages .header {
+    min-height: 100px; } }
+@media (max-width: 420px) {
+  .service-list,
+  .monitored-include .list,
+  .feedback blockquote p,
+  .feedback blockquote footer {
+    font-size: 14px; }
+
+  body {
+    font-size: 14px; }
+
+  .title h2 {
+    font-size: 25px; }
+
+  .logo h1 {
+    font-size: 23px; }
+    .logo h1 br {
+      display: none; }
+
+  .header .youtube-video iframe {
+    height: 150px;
+    width: 267px; } }
 
 /*# sourceMappingURL=style.css.map */
